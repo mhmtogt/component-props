@@ -2,6 +2,7 @@ import React from 'react'
 import bird from "../img/bird.jpg"
 import yesilkus from "../img/yesilkus.webp"
 // public klasöründe olmayan resimlere erişmek için import yapmak gerekiyor 
+// 1000 tane resimi i for döngüsü ile publicte erişebiliriz ama diğer şekil hepsini import etmemiz gerekir
 
 export const Main = () => {
 
