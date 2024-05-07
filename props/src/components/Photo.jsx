@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Photo = () => {
+export const Photo = ({resim}) => {
   return (
     <photo>
-        <img src="./img/view.jpg" alt="view" />
+        <img src={resim}  alt='abc'/>
     </photo>
   )
 }
